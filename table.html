@@ -1,0 +1,88 @@
+<html>
+  <head>
+    <title>Kaushal's table</title>
+    <style>
+      * {
+        font-size: 40px;
+      }
+      table {
+        border: 1px solid black;
+        border-collapse: collapse;
+        colspan: 1;
+      }
+      th {
+        border: 1px solid black;
+        font-family: Arial;
+        font-weight: normal;
+      }
+      td {
+        font-family: Times New Roman;
+        border: 1px solid black;
+        padding: 20px;
+      }
+      .last {
+        font-family: calibri;
+      }
+      .one {
+        background-color: cyan;
+      }
+      .two {
+        background-color: rgba(255, 255, 0, 0.3);
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th colspan="2" style="width: 500px">Person</th>
+        <th colspan="2">Department</th>
+      </tr>
+      <tr>
+        <td class="one">Name</td>
+
+        <td
+          rowspan="4"
+          class="one"
+          style="text-align: right; vertical-align: text- top; width: 300px"
+        >
+          Photo
+        </td>
+
+        <td class="two">Name</td>
+        <td
+          rowspan="2"
+          class="two"
+          style="text-align: left; vertical-align: text-top"
+        >
+          image
+        </td>
+      </tr>
+
+      <tr>
+        <td class="one">Surname</td>
+        <td class="two" class="two">structure</td>
+      </tr>
+      <tr>
+        <td class="one">State</td>
+
+        <td class="two">Floor</td>
+        <td
+          rowspan="2"
+          class="two"
+          style="text-align: left; vertical-align: text-top"
+        >
+          QR code
+        </td>
+      </tr>
+
+      <tr>
+        <td class="one">City</td>
+        <td class="two">Room</td>
+      </tr>
+      <tr>
+        <td colspan="2" class="last">E-mail</td>
+        <td colspan="2" class="last">Tel. number</td>
+      </tr>
+    </table>
+  </body>
+</html>
