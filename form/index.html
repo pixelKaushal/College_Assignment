@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form</title>
+    <link rel="stylesheet" href="Styles.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="head"><p id="info">Sign Up</p></div>
+      <div class="body">
+        <form>
+          <section class="label">
+            <label for="fname"> First Name </label>
+            <label for="lname"> Last Name </label>
+            <label for="dob"> Date of Birth </label>
+            <label> Gender </label>
+            <label>Country</label>
+            <label for="email"> E-mail </label>
+            <label for="ph"> Phone </label>
+            <label for="pw"> Password </label>
+            <label for="cpw"> Confirm Password </label>
+          </section>
+          <section class="inputs">
+            <input
+              type="text"
+              name="fname"
+              id="fname"
+              placeholder="Enter First Name"
+              required
+            />
+
+            <input
+              type="text"
+              name="lname"
+              id="lname"
+              placeholder="Enter Last
+
+Name"
+              required
+            />
+
+            <div>
+              <select id="dob">
+                <option hidden>Date</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+                <option>13</option>
+                <option>14</option>
+                <option>15</option>
+                <option>16</option>
+                <option>17</option>
+                <option>18</option>
+                <option>19</option>
+                <option>20</option>
+                <option>21</option>
+                <option>22</option>
+                <option>23</option>
+                <option>24</option>
+                <option>25</option>
+                <option>26</option>
+                <option>27</option>
+                <option>28</option>
+                <option>29</option>
+                <option>30</option>
+              </select>
+              <select id="month">
+                <option hidden>Month</option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+                <option>6</option>
+                <option>7</option>
+                <option>8</option>
+                <option>9</option>
+                <option>10</option>
+                <option>11</option>
+                <option>12</option>
+              </select>
+              <select id="date">
+                <option hidden>Year</option>
+                <option>2008</option>
+                <option>2009</option>
+                <option>2010</option>
+              </select>
+            </div>
+            <div style="background: #222536">
+              <input type="radio" value="gender" name="gender" /> Male
+              <input type="radio" value="gender" name="gender" /> Female
+            </div>
+
+            <select>
+              <option hidden>Country</option>
+              <option>Nepal</option>
+            </select>
+
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter E-mail"
+              required
+            />
+            <input
+              type="number"
+              name="ph"
+              id="ph"
+              placeholder="Enter Phone"
+              required
+            />
+
+            <input type="password" name="pw" id="pw" required />
+
+            <input type="password" name="cpw" id="cpw" required />
+          </section>
+        </form>
+        <div id="lasts">
+          <input type="checkbox" style="font-size: 1px" /> I Agree to the Terms
+          of use
+        </div>
+      </div>
+      <div class="footer" id="last">
+        <button type="submit" id="submit">Submit</button>
+        <button type="button" id="cancel">Cancel</button>
+      </div>
+    </main>
+  </body>
+</html>
